@@ -1,6 +1,6 @@
 FROM node:20.11.1-alpine as base
 
-From base as builder
+FROM base as builder
 
 WORKDIR /app
 
