@@ -18,6 +18,8 @@ COPY --from=builder /app/node_modules /app/node_modules
 
 COPY . .
 
+ENV PORT=50051
+
 EXPOSE 50051
 
 ENTRYPOINT [ "node", "index.js" ]
