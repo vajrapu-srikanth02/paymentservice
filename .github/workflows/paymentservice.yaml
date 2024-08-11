@@ -1,4 +1,4 @@
-name: node lang
+name: node lang CI
 
 env:
   APP_NAME: paymentservice
